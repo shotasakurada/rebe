@@ -75,7 +75,8 @@ $(function() {
   <?php
     ## 2019.09.05 added s.yonemoto
     ## 1421,1440,1454,1455 だったら新フッターを出す
-    if($seminar['CompanySeminar']['id'] == "1421" || $seminar['CompanySeminar']['id'] == "1440" || $seminar['CompanySeminar']['id'] == "1454" || $seminar['CompanySeminar']['id'] == "1455"){
+    ## 2020.05.11 1645,1660,1663 added 
+    if($seminar['CompanySeminar']['id'] == "1421" || $seminar['CompanySeminar']['id'] == "1440" || $seminar['CompanySeminar']['id'] == "1454" || $seminar['CompanySeminar']['id'] == "1455" || $seminar['CompanySeminar']['id'] == "1645"  || $seminar['CompanySeminar']['id'] == "1660"  || $seminar['CompanySeminar']['id'] == "1663"){
    ?>
    <div class="fixed">
      <div class="pc-cv-area">
