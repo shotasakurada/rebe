@@ -4098,30 +4098,41 @@ br.sp_only{display: none;}
 /*フッターバナー*/
 footer p.copy{padding-bottom:100px;}
 .foot_bnr170606{ position:fixed; z-index: 100; bottom:0; width:100%; letter-spacing:0.1em;
-padding:15px 0 20px 0;color:#fff; text-align:center;background: url(../img/hnb/footer/pc/foot_ban_bk.png);}
+padding:15px 0 20px 0;color:#fff; text-align:center;background: #eee;}
 .foot_bnr170606 .foot_bnr_re{position:relative;}
 .foot_bnr170606 .ttl{ font-size:19px; margin-bottom:10px; color:#FFFF00;}
-.foot_bnr170606 .read{ font-size:16px; margin-bottom:15px;}
+.foot_bnr170606 .read{ font-size:16px; margin-bottom:15px; color: #000;}
 .foot_bnr170606 .btn{font-size:19px;}
-.foot_bnr170606 .btn a{color:#fff !important; background-color:#0078FF; text-decoration:none; padding:5px 40px; border:1px solid #fff;
+.foot_bnr170606 .btn a{color:#fff !important; background-color:#21bf73; text-decoration:none;
+  padding:10px;
+  margin-left: auto;
+  margin-right: auto;
+font-weight: 600;
 border-radius: 20px;
+box-shadow: 0 0 14px 2px rgba(0, 0, 0, 0.2);
+display: block;
+width: 450px;
 -moz-border-radius: 20px;
 -webkit-border-radius: 20px;
 -o-border-radius: 20px;
 -ms-border-radius: 20px;
 }
 
-.foot_bnr170606 .close{ cursor:pointer; position:absolute; right:1.5%; top:1.5%;}
+.foot_bnr170606 .close{ cursor:pointer; position:absolute; right:1.5%; top:1.5%; color: #000;}
 .foot_bnr170606 .close img{width:17px; height:17px;}
 
 @media (max-width: 830px){
 	.foot_bnr170606{letter-spacing:0.02em;}
-.foot_bnr170606 .close{ cursor:pointer; position:absolute; right:2%; top:-5px;}
+.foot_bnr170606 .close{ cursor:pointer; position:absolute; right:2%; top:-9px !important;}
 .foot_bnr170606 .close img{width:11px; height:11px; line-height:0}
 .foot_bnr170606 .ttl{font-size:90%;}
-.foot_bnr170606 .read{ font-size:80%; margin-bottom:15px;}
+.foot_bnr170606 .read{ font-size:13px; margin-bottom:15px;}
 .foot_bnr170606 .btn{font-size:90%;}
-.foot_bnr170606 .btn a{padding:5px 4%; }
+.foot_bnr170606 .btn a{padding:10px;
+  display: block;
+  width: 80%;
+  margin-left: auto;margin-right: auto;
+}
 }
 
 

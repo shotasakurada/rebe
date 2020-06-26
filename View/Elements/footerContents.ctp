@@ -75,7 +75,7 @@ $(function() {
   <?php
     ## 2019.09.05 added s.yonemoto
     ## 1421,1440,1454,1455 だったら新フッターを出す
-    ## 2020.05.11 1645,1660,1663 added 
+    ## 2020.05.11 1645,1660,1663 added
     if($seminar['CompanySeminar']['id'] == "1421" || $seminar['CompanySeminar']['id'] == "1440" || $seminar['CompanySeminar']['id'] == "1454" || $seminar['CompanySeminar']['id'] == "1455" || $seminar['CompanySeminar']['id'] == "1645"  || $seminar['CompanySeminar']['id'] == "1660"  || $seminar['CompanySeminar']['id'] == "1663"){
    ?>
    <div class="fixed">
@@ -121,7 +121,10 @@ $(function() {
         }
         ?>
       </div>
-  		<p class="close"><img src="/img/hnb/footer/pc/close.png" alt="閉じる"></p>
+  		<p class="close">
+        <!-- <img src="/img/hnb/footer/pc/close.png" alt="閉じる"> -->
+        ×
+      </p>
   	</div>
   </div>
   <?php
@@ -146,11 +149,14 @@ $(function() {
 <div class="foot_bnr170606">
   <div class="foot_bnr_re">
     <?php if(date('d') > 15) : ?>
-   <p class="ttl">［ 登録期限は <?php echo date('t') ?>日 まで！ ］</p>
+   <!-- <p class="ttl">［ 登録期限は <?php //echo date('t') ?>日 まで！ ］</p> -->
     <?php endif; ?>
     <p class="read"><?php echo $ad1 ?></p>
     <p class="btn"><a href="<?php echo $adurl ?>"><?php echo $ad2 ?></a></p>
-    <p class="close"><img src="/img/hnb/footer/pc/close.png" alt="閉じる"></p>
+    <p class="close">
+      <!-- <img src="/img/hnb/footer/pc/close.png" alt="閉じる"> -->
+      ×
+    </p>
   </div>
 </div>
 <?php endif; ?>
